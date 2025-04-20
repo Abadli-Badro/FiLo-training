@@ -247,7 +247,7 @@ if __name__ == "__main__":
         )
 
         # save mode
-        save_name =  + "filo_train_on_" + args.dataset
+        save_name =  "filo_train_on_" + args.dataset
         ckp_path = os.path.join(
             save_path,
             f"{save_name}.pth",
